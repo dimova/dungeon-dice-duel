@@ -1,0 +1,20 @@
+{
+  "name": "dungeon-dice-game",
+  "version": "1.0.0",
+  "description": "dungeon-dice-game",
+  "license": "ISC",
+  "author": "Jonathan Hill",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node db/seedHeroes.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^4.21.2",
+    "express-session": "^1.19.0",
+    "sqlite3": "^5.1.7"
+  }
+}
