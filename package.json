@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "dungeon-dice-game",
   "license": "ISC",
-  "author": "Jonathan Hill",
+  "author": "Desi Dimova",
   "type": "module",
   "main": "server.js",
   "scripts": {
